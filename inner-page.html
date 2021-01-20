@@ -43,8 +43,16 @@
 
 <h1>The button element - Styled with CSS</h1>
 
-<button class="button button1">Green</button>
-<button class="button button2">Blue</button>
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
 
 </body>
 </html>
